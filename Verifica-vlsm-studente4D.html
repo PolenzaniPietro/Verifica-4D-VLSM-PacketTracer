@@ -703,9 +703,7 @@
     </p>
 
     <div class="img-placeholder">
-        <div class="icon">📐</div>
-        <div class="label">[IMG_01] — Schema concettuale VLSM: suddivisione del blocco 192.168.0.0/24 in subnet di dimensioni diverse</div>
-        <div class="hint">Catturare uno schema o disegno che mostri la suddivisione dello spazio di indirizzamento</div>
+        <img src = "schema_concettuale.png">
     </div>
 </section>
 
@@ -768,27 +766,27 @@
             <tbody>
                                 <tr>
                     <td><span class="net-tag b">Rete Alfa</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.0/28</span></td>
+                    <td><span class="placeholder-cell">255.255.255.240</span></td>
+                    <td><span class="placeholder-cell">192.168.0.1</span></td>
+                    <td><span class="placeholder-cell">192.168.0.14</span></td>
+                    <td><span class="placeholder-cell">192.168.0.15</span></td>
                 </tr>
                                 <tr>
                     <td><span class="net-tag c">Rete Beta</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.16/27</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
+                    <td><span class="placeholder-cell">192.168.0.17</span></td>
+                    <td><span class="placeholder-cell">192.168.0.46</span></td>
+                    <td><span class="placeholder-cell">192.168.0.47</span></td>
                 </tr>
                                 <tr>
                     <td><span class="net-tag d">Rete Gamma</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.48/27</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
+                    <td><span class="placeholder-cell">192.168.0.49</span></td>
+                    <td><span class="placeholder-cell">192.168.0.78</span></td>
+                    <td><span class="placeholder-cell">192.168.0.79</span></td>
                 </tr>
             </tbody>
         </table>
@@ -815,43 +813,43 @@
                 <tr>
                     <td><code>PC-Alfa1</code></td>
                     <td><span class="net-tag b">Rete Alfa</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.2</span></td>
+                    <td><span class="placeholder-cell">255.255.255.240</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Alfa2</code></td>
                     <td><span class="net-tag b">Rete Alfa</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.3</span></td>
+                    <td><span class="placeholder-cell">255.255.255.240</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Beta1</code></td>
                     <td><span class="net-tag c">Rete Beta</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.18</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Beta2</code></td>
                     <td><span class="net-tag c">Rete Beta</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.19</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Gamma1</code></td>
                     <td><span class="net-tag d">Rete Gamma</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.50</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Gamma2</code></td>
                     <td><span class="net-tag d">Rete Gamma</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
-                    <td><span class="placeholder-cell">___.___.___._______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.51</span></td>
+                    <td><span class="placeholder-cell">255.255.255.224</span></td>
                     <td><code>—</code></td>
                 </tr>
             </tbody>
@@ -912,9 +910,7 @@
                 <code>Ctrl+N</code> per creare un nuovo progetto vuoto.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🖥️</div>
-                <div class="label">[IMG_02] — Schermata iniziale di Packet Tracer con il workspace vuoto</div>
-                <div class="hint">Cattura la schermata di Packet Tracer appena aperto</div>
+                <img src= "packet_tracer_vuoto.png">
             </div>
         </div>
     </div>
@@ -929,9 +925,7 @@
                 Rinominalo "Switch0" facendo clic sull'etichetta.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🔌</div>
-                <div class="label">[IMG_03] — Selezione e posizionamento dello switch 2960</div>
-                <div class="hint">Mostra la barra dei dispositivi con la categoria Switches evidenziata e lo switch nell'area di lavoro</div>
+                <img src="inserimento_switch.png">
             </div>
         </div>
     </div>
@@ -955,9 +949,7 @@
                 </p>
             </div>
             <div class="img-placeholder">
-                <div class="icon">💻</div>
-                <div class="label">[IMG_04] — Gli 6 PC posizionati e rinominati nell'area di lavoro</div>
-                <div class="hint">Mostra tutti gli 6 PC disposti in 3 gruppi sotto lo switch</div>
+                <img src = "inseriti_pc_rinominati.png">
             </div>
         </div>
     </div>
@@ -992,9 +984,7 @@
                 </table>
             </div>
             <div class="img-placeholder">
-                <div class="icon">🔗</div>
-                <div class="label">[IMG_05] — Topologia completata: tutti i PC collegati allo switch con cavi Straight-Through</div>
-                <div class="hint">Cattura la topologia finale con tutti i collegamenti (i triangoli verdi dovrebbero apparire su ogni link)</div>
+                <img src ="collegamento_pc.png">
             </div>
         </div>
     </div>
@@ -1065,8 +1055,8 @@
             PC-Alfa1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.2</span>
+Subnet Mask:    <span class="placeholder">255.255.255.240</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
@@ -1080,8 +1070,8 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-Alfa2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.3</span>
+Subnet Mask:    <span class="placeholder">255.255.255.240</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
@@ -1095,8 +1085,8 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-Beta1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.18</span>
+Subnet Mask:    <span class="placeholder">255.255.255.224</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
@@ -1110,8 +1100,8 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-Beta2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.19</span>
+Subnet Mask:    <span class="placeholder">255.255.255.224</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
@@ -1125,8 +1115,8 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-Gamma1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.50</span>
+Subnet Mask:    <span class="placeholder">255.255.255.224</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
@@ -1140,16 +1130,14 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-Gamma2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
-Subnet Mask:    <span class="placeholder">___.___.___._______</span>
+IP Address:     <span class="placeholder">192.168.0.51</span>
+Subnet Mask:    <span class="placeholder">255.255.255.224</span>
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">✅</div>
-        <div class="label">[IMG_07] — Panoramica della topologia con tutti i PC configurati</div>
-        <div class="hint">Mostra la topologia completa; opzionalmente, posiziona il mouse su un PC per vedere il tooltip con l'IP</div>
+        <img src ="configurazione_pc.png">
     </div>
 
     <div class="exercise-box">
